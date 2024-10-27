@@ -23,6 +23,7 @@ public class Main {
         // Routen für Registrierung und Login
         router.addService("/users", new UserService());    // Registrierung
         router.addService("/sessions", new UserService()); // Login
+        //router.addService("/packages", new PackageService());
 
         // Fügen Sie weitere Routen hinzu, falls erforderlich
 
